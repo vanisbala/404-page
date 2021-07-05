@@ -1,0 +1,63 @@
+body {
+    color: #2f80ed;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
+  .Emptybox-container {
+    margin-top: 110px;
+  }
+  .Emptybox-figure {
+    max-width: 520px;
+    height:190px;
+    margin:0 auto;
+  }
+  .Emptybox-image {
+    width:100%;
+  }
+  .header-container {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    
+  
+  }
+  .header-text {
+    font-size:120px;
+    line-height:140px;
+    font-weight:400;
+    margin:0px;
+  
+  }
+  .p-text {
+    margin-top:10px;
+    font-size:16px;
+    line-height:20px;
+    font-weight:400;
+    opacity:0;
+    transition: opacity .4s ease-in-out;
+  }
+  .header-container:hover .p-text{
+    opacity:1;
+  }
+  .footer {
+    font-size:16px;
+    line-height:18px;
+    font-weight:normal;
+    position :absolute;
+    bottom: 30px;
+    text-align: center;
+    left:0px;
+    right:0px;
+  
+  }
+  .footer-text {
+    color:#2f80ed;
+  
+  }
+  
+  
+  
+  .footer-text:visited{
+    color:#2f80ed;
+  }
+  
+  
